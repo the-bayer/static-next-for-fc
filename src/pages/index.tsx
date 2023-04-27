@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            V1
+            V2
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
           <div>

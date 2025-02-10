@@ -38,6 +38,22 @@
           "buildType": "nixpacks",
           "envVariables": {},
           "versionHistoryCount": 10
+        },
+        {
+          "ci": {
+            "type": "ec2",
+            "storageIops": 3000,
+            "storageType": "gp3",
+            "instanceStorage": 30,
+            "storageThroughput": 125
+          },
+          "id": "static-2",
+          "name": "Static 2",
+          "type": "static",
+          "basePath": ".",
+          "buildType": "nixpacks",
+          "envVariables": {},
+          "versionHistoryCount": 10
         }
       ]
     }

@@ -27,7 +27,7 @@
           "ci": {
             "type": "codebuild",
           },
-          "id": "static2",
+          "id": "static-new",
           "name": "Static - 2",
           "type": "static",
           "basePath": ".",

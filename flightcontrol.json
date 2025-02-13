@@ -22,6 +22,18 @@
           "buildType": "nixpacks",
           "envVariables": {},
           "versionHistoryCount": 10
+        },
+         {
+          "ci": {
+            "type": "codebuild",
+          },
+          "id": "static2",
+          "name": "Static - 2",
+          "type": "static",
+          "basePath": ".",
+          "buildType": "nixpacks",
+          "envVariables": {},
+          "versionHistoryCount": 10
         }
       ]
     }
